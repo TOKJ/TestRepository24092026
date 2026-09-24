@@ -10,3 +10,4 @@ jobs:
       - run: docker run hello-world
       - run: bash container.sh
       - run: bash image.sh
+      - run: bash image.sh
