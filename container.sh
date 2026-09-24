@@ -6,3 +6,8 @@ docker logs web
 
 docker run -d --name tokjContainer nginx:alpine
 
+docker stop web
+docker rm web
+
+docker stop tokjContainer
+docker rm tokjContainer
